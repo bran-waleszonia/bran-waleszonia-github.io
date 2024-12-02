@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Garamond;
+}
+
+.profile-picture {
+    height: 300px;
+    border-radius: 15%;
+    width: 300px;
+    border: 3px solid ghostwhite;
+    opacity: 0.95;
+
+}
+
+nav {
+    margin: 0 auto;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    padding: 10px 0;
+    opacity: 0.75;
+    z-index: 1;
+
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-family: Garamond;
+    font-size: 18px;
+
+}
+
+nav li:hover {
+    padding: 10px;
+    background-color: ghostwhite;
+}
+
+nav a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+nav a:hover {
+    color: black;
+}
+
+#home {
+    margin: auto;
+    padding: 200px 0;
+    height: 400px;
+    text-align: center;
+    background-image: url(../resources/images/wood.jpg);
+    background-size: cover;
+    width: auto;
+}
+
+
+#home ul {
+    margin: 25px;
+    opacity: 0.90;
+}
+
+#home li {
+    display: inline;
+    border: 3px solid ghostwhite;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+
+}
+
+#home h1,
+#home h2 {
+    color: ghostwhite;
+}
+
+#about-me {
+    margin: auto;
+    padding: 200px 0;
+    height: 600px;
+    text-align: center;
+    background-image: url("../resources/images/smoke-and-mountains.jpg");
+    background-size: cover;
+    color: ghostwhite;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-family: Garamond;
+    font-size: 20px;
+    background-color: black;
+    color: ghostwhite;
+    width: 100%;
+    padding: 20px auto;
+    height: auto;
+    margin: auto;
+    opacity: .95;
+    padding: 5px 0;
+}
+
+footer a {
+    color: ghostwhite;
+}
+
+.social-media a {
+    color: ghostwhite;
+}
+
+.justify {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    padding: 5px;
+    border-radius: 8%;
+    opacity: .80;
+}
+
+h1, h2, h3, p {
+    
+    padding: 10px;
+    font-size: 20px;
+}
