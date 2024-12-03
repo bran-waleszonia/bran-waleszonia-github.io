@@ -14,7 +14,7 @@
 }
 
 nav {
-    margin: 0 auto;
+    margin: auto;
     position: fixed;
     background-color: black;
     width: 100%;
@@ -29,12 +29,14 @@ nav li {
     padding: 10px;
     font-family: Garamond;
     font-size: 18px;
+    color:ghostwhite;
 
 }
 
 nav li:hover {
     padding: 10px;
     background-color: ghostwhite;
+    color: black;
 }
 
 nav a {
