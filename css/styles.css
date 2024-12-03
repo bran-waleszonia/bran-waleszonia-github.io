@@ -51,7 +51,7 @@ nav a:hover {
 #home {
     margin: auto;
     padding: 200px 0;
-    height: 600px;
+    height: auto;
     text-align: center;
     background-image: url(../resources/images/wood.jpg);
     background-size: cover;
@@ -83,7 +83,7 @@ nav a:hover {
 #about-me {
     margin: auto;
     padding: 200px 0;
-    height: 600px;
+    height: auto;
     text-align: center;
     background-image: url("../resources/images/smoke-and-mountains.jpg");
     background-size: cover;
